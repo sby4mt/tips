@@ -2,6 +2,7 @@
 - [見出し](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#見出し)
 - [リスト](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#リスト)
 - [番号付きリスト](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#番号付きリスト)
+- [タスクリスト](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#タスクリスト)
 - [空行・改行](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#空行・改行)
 - [インライン表示](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#インライン表示)
 - [コードの挿入](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#コードの挿入)
@@ -10,7 +11,6 @@
 - [画像の挿入](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#画像の挿入)
 - [画像の挿入(サイズ指定)](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#画像の挿入(サイズ指定))
 - [テーブル](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#テーブル)
-- [文字色](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#文字色)
 - [太字](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#太字)
 - [斜体](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#斜体)
 - [打消し線](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#打消し線)
@@ -52,6 +52,17 @@
 - 表示
 >1. テキスト
 >2. テキスト
+# タスクリスト
+- 書式
+```
+- [x] task
+- [ ] task1
+- [ ] task2
+```
+- 表示
+> - [x] task
+> - [ ] task1
+> - [ ] task2
 # 空行・改行
 - 書式
 ```
@@ -122,13 +133,6 @@
 >|:--|:--:|--:|
 >|tmp|tmp|tmp|
 >|left|center|right|
-# 文字色
-- 書式
-```
-<font color="Red">テキスト</font>
-```
-- 表示
-> <font color="Red">テキスト</font>
 # 太字
 - 書式
 ```
@@ -142,13 +146,13 @@ __テキスト__
 # 斜体
 - 書式
 ```
-*テキスト*
-_テキスト_
+*Italic*
+_Italic_
 ```
 - 表示
-> *テキスト*
+> *Italic*
 >
-> _テキスト_
+> _Italic_
 # 打消し線
 - 書式
 ```
