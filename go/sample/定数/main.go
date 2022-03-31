@@ -12,6 +12,12 @@ const (
 	poo = "poo"
 )
 
+// ロール
+const (
+	SytemAdmin int = 1 + iota
+	User
+)
+
 func main() {
 	fmt.Println(Hoge)
 	fmt.Println(foo, poo)
