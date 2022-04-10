@@ -40,3 +40,7 @@ sudo systemctl status certbot.timer
 ```
 sudo certbot renew --dry-run
 ```
+## 証明書の削除
+```
+certbot revoke
+```
