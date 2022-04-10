@@ -42,5 +42,5 @@ sudo certbot renew --dry-run
 ```
 ## 証明書の削除
 ```
-certbot revoke
+certbot revoke --cert-path "パス"
 ```
