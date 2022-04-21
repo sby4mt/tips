@@ -1,22 +1,22 @@
 # Markdownチートシート
-- [見出し](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#見出し)
-- [リスト](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#リスト)
-- [番号付きリスト](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#番号付きリスト)
-- [タスクリスト](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#タスクリスト)
-- [空行・改行](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#空行・改行)
-- [インライン表示](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#インライン表示)
-- [コードの挿入](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#コードの挿入)
-- [リンクの挿入](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#リンクの挿入)
-- [引用](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#引用)
-- [画像の挿入](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#画像の挿入)
-- [画像の挿入(サイズ指定)](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#画像の挿入(サイズ指定))
-- [テーブル](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#テーブル)
-- [太字](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#太字)
-- [斜体](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#斜体)
-- [打消し線](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#打消し線)
-- [水平線](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#水平線)
-- [注釈](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#注釈)
-- [マークダウンのエスケープ](https://github.com/sbtosh/tips/blob/main/markdown/markdownチートシート.md#マークダウンのエスケープ)
+- [見出し](#見出し)
+- [リスト](#リスト)
+- [番号付きリスト](#番号付きリスト)
+- [タスクリスト](#タスクリスト)
+- [空行・改行](#空行・改行)
+- [インライン表示](#インライン表示)
+- [コードの挿入](#コードの挿入)
+- [リンクの挿入](#リンクの挿入)
+- [引用](#引用)
+- [画像の挿入](#画像の挿入)
+- [画像の挿入(サイズ指定)](#画像の挿入サイズ指定)
+- [テーブル](#テーブル)
+- [太字](#太字)
+- [斜体](#斜体)
+- [打消し線](#打消し線)
+- [水平線](#水平線)
+- [注釈](#注釈)
+- [マークダウンのエスケープ](#マークダウンのエスケープ)
 
 # 見出し
 - 書式
@@ -97,6 +97,17 @@
 ```
 - 表示
 >[github.com](https://github.com/)
+# ページ内リンク
+- 書式
+```
+見出しの#をのぞいたタイトル  
+半角記号は_と-以外は省略。空白は-で表現。
+[hoge](#hoge)
+
+# hoge
+```
+- 表示
+>[hoge](#hoge)
 # 引用
 - 書式
 ```
